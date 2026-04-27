@@ -168,8 +168,10 @@ Good luck with your mod injection!
 **GNU General Public License 3**
 
 # Disclaimer
-This template is created by LGL TEAM, not me, i'm just update template and share it.
+This template was originally created by LGL TEAM. I have updated and maintained it, and shared it for continued use.
 
-This project is for Educational Use only. I do not condone this project being used to gain an advantage against other people. This project was made for fun.
+This project is intended for educational purposes only. I do not support or encourage its use to gain unfair advantages over others. It is developed for learning and entertainment purposes.
 
-I strongly refrain you from buying any source codes on Telegram even if the author can be trusted, there is always a risk getting scammed. I will not be responsible for that. This project is always FREE to use
+Please be cautious when purchasing source code from platforms such as Telegram, even if the seller appears trustworthy, as there is always a risk of scams. I am not responsible for any such transactions.
+
+This project is and will remain free to use.
