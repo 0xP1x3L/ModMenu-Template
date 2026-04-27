@@ -1,5 +1,5 @@
 # Introduction
-LGL Mod Menu Template modified and updated version by me. (Updated in 10/2025)
+LGL Mod Menu Template updated and maintained version by me. (Updated in 4/2026)
 
 # How to mod and hook
 Main file to create function in mod menu is [Main.cpp](https://github.com/0xP1x3L/LGL-ModMenu-Template/blob/f7e47fb361a06132321bb9b809a238f9796784b9/app/src/main/jni/Main.cpp) file, you can read how i use HOOK.
