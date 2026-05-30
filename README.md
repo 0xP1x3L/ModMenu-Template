@@ -12,6 +12,8 @@ List of tutorial you need to watch before you make mod.
 
 [LIST-MODDING-TUTORIAL](https://platinmods.com/threads/list-of-platinmods-modding-tutorials.19773)
 
+[LIST-OF-HEX-CODE](https://github.com/0xP1x3L/ModMenu-Template/blob/e2f5a03cdf21d7920ede56c45ddced90846542d8/arm_patching_cheatsheet.md)
+
 Tutorial in video is quite old, but some ways still work.
 
 About tutorial below, you can read how to inject mod in to apk file.
