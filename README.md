@@ -159,10 +159,12 @@ Change like this (if you dont understand, use AI, it will explain)
 ```
 
 # How to bypass Pairip protections / Bypass Certificate check
-[Pairip Bypass](https://platinmods.com/threads/new-pairip-kill-tutorial-tested-on-vpnify.196876/)
+[Pairip Bypass](https://platinmods.com/threads/how-to-bypass-pairip-protections-latest-too-easy.203105/)
 
-Simply remove 2 line contain "pairip" in Game's AndroidManifest.xml
-And remove libpairipcore.so lib
+Or try this, simply remove this line in smali-folder\com\pairip\application\Application.smali
+```Smali
+    invoke-static {p1}, Lcom/pairip/SignatureCheck;->verifyIntegrity(Landroid/content/Context;)V
+```
 
 # Important Note:
 Make sure you have backed up the original game APK file before making any changes.
