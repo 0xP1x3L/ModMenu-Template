@@ -156,7 +156,7 @@ Change like this (if you dont understand, use AI, it will explain)
 .end method
 ```
 
-# How to bypass Pairip protections / Bypass Certificate check
+# How to bypass Pairip protections
 [Pairip Bypass](https://petruknisme.medium.com/bypassing-pairip-integrity-checks-21d7bdd4a052)
 
 Make a change in ```AndroidManifest.xml```:
