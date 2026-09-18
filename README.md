@@ -1,5 +1,5 @@
 # Introduction
-LGL Mod Menu Template updated and maintained version by me. (Updated in 7/2026)
+LGL Mod Menu Template updated and maintained version by me. (Updated in 09/2026)
 
 # How to mod and hook
 Main file to create function in mod menu is [Main.cpp](https://github.com/0xP1x3L/LGL-ModMenu-Template/blob/f7e47fb361a06132321bb9b809a238f9796784b9/app/src/main/jni/Main.cpp) file, you can read how i use HOOK.
@@ -158,6 +158,43 @@ Change like this (if you dont understand, use AI, it will explain)
 
 # How to bypass Pairip protections / Bypass Certificate check
 [Pairip Bypass](https://petruknisme.medium.com/bypassing-pairip-integrity-checks-21d7bdd4a052)
+
+Make a change in ```AndroidManifest.xml```:
+
++ Remove whole XML element contain ```com.pairip.*```  exclude ```<application>``` block.
+
+Make a change in ```com\pairip\licensecheck\LicenseActivity.smali```:
++ Patch ```onStart()V```:
+```smali
+.method public onStart()V
+    # == Add: return to skip logic ==
+    invoke-super {p0}, Landroid/app/Activity;->onStart()V
+    return-void
+    # ==============================================
+.end method
+```
+
+Make a change in ```com\pairip\licensecheck\LicenseClient.smali```:
+
++ Patch ```checkLicense(Landroid/content/Context;)V```:
+```smali
+.method public static checkLicense(Landroid/content/Context;)V
+    .locals 0
+    # == Add: return ==
+    return-void
+    # =======================
+.end method
+```
+
++ Patch ```initializeLicenseCheck()V```:
+```smali
+.method public initializeLicenseCheck()V
+    .locals 0
+    # == Add: return ==
+    return-void
+    # =======================
+.end method
+```
 
 # Important Note:
 Make sure you have backed up the original game APK file before making any changes.
