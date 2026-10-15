@@ -14,7 +14,7 @@ List of tutorial you need to watch before you make mod.
 
 Tutorial in video is quite old, but some ways still work.
 
-About tutorial below, you can read how to inject mod in to apk file.
+About tutorial below, you can know how to inject mod in to apk file.
 
 # How to inject mod menu in to Game APKs.
 
